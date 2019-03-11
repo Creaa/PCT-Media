@@ -49,7 +49,7 @@ class Checkout extends Component {
 			}
 			console.log(productInfo)
 			this.setState({
-				succes: true
+				success: true
 			})
 		}
 		else {
