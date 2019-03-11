@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProductsList from "../../products.json";
+import { Redirect } from 'react-router-dom'
 import './Checkout.css';
 class Checkout extends Component {
 	constructor(props) {
@@ -14,6 +15,7 @@ class Checkout extends Component {
 			cityInput: '',
 			postCodeInput: '',
 			emailCorrect: false,
+			succes: false,
 
 		}
 	}
@@ -46,6 +48,9 @@ class Checkout extends Component {
 				product: this.props.products
 			}
 			console.log(productInfo)
+			this.setState({
+				succes: true
+			})
 		}
 		else {
 			alert("Error, invalid form data!")
@@ -132,6 +137,9 @@ class Checkout extends Component {
 
 
 	render() {
+		if (this.state.succes) {
+			return <Redirect to="/succes" />
+		}
 		return (
 			<div className="card-wrapper">
 				{this.state.itemList.map((el, k) => {
