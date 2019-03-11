@@ -1,0 +1,193 @@
+.site-nav {
+	align-items: center;
+	position: fixed;
+	width: 95%;
+	left: 2.5%;
+	z-index: 1;
+	padding: 15px;
+	margin: 10px 0;
+	transition: 1s;
+	color: #fff;
+}
+
+.site-nav-background {
+	opacity: 0.9;
+	background-color: #fff;
+	color: #000000
+}
+
+.nav-header {
+	display: none;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+
+.nav-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	font-size: 1rem;
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Hamburger */
+
+.hamburger {
+	align-self: flex-end;
+	position: relative;
+	margin-top: 10px;
+	z-index: 1;
+}
+
+
+.hamburger-line {
+	display: block;
+	width: 33px;
+	height: 4px;
+	margin-bottom: 5px;
+	position: relative;
+
+	background: #000000;
+	border-radius: 3px;
+
+	z-index: 1;
+
+	transform-origin: 4px 0px;
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+		background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+		opacity 0.55s ease;
+}
+
+.hamburger-checkbox {
+	display: block;
+	width: 40px;
+	height: 32px;
+	position: absolute;
+	top: -7px;
+	left: -5px;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+}
+
+.hamburger-line:first-child {
+	transform-origin: 0% 0%;
+}
+
+.hamburger-line:nth-last-child(2) {
+	transform-origin: 0% 100%;
+}
+
+
+.hamburger-checkbox:checked~.hamburger-line {
+	opacity: 1;
+	transform: rotate(45deg) translate(-2px, -1px);
+	background: #232323;
+}
+
+.hamburger-checkbox:checked~.hamburger-line:nth-last-child(1) {
+	opacity: 0;
+	transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.hamburger-checkbox:checked~.hamburger-line:nth-last-child(2) {
+	transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.site-nav-mobile {
+	height: 100vh;
+	transition: 1s;
+}
+
+.nav-list-mobile {
+	display: block;
+	height: 70%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+	transition: 0.3s;
+}
+
+.checkout-wrapper {
+	position: relative;
+}
+
+.checkout {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: url('https://static.thenounproject.com/png/610664-200.png') center/cover
+}
+
+.item-counter {
+	min-width: 25px;
+	min-height: 25px;
+	text-align: center;
+	vertical-align: center;
+	padding-bottom: 10px;
+	color: #fff;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 2px;
+	background-color: red;
+	position: absolute;
+	font-size: 1rem;
+	font-weight: 800;
+	top: -5px;
+	right: -5px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	.site-nav {
+		width: 100%;
+		left: 0;
+		color: #000000;
+	}
+
+	.nav-list {
+		visibility: hidden;
+	}
+
+	.nav-list-mobile {
+		display: flex;
+		visibility: visible
+	}
+
+
+	.logo {
+		font-family: 'Black Ops One', sans-serif;
+		font-size: 1.4rem;
+		letter-spacing: 1rem;
+		margin-right: 30px;
+		flex: 1;
+		text-align: center;
+		visibility: visible;
+	}
+
+	.nav-header {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+
+	.nav-logo {
+		display: none;
+	}
+
+	.checkout-wrapper {
+		order: -1;
+	}
+
+}

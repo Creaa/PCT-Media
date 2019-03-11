@@ -1,0 +1,226 @@
+[{
+		"id": 1,
+		"name": "iPhone 8",
+		"price": 99.99,
+		"oldPrice": 599.00,
+		"img": "Iphone8.png",
+		"options": [{
+				"id": 100,
+				"name": "Color",
+				"values": [{
+						"id": 1000,
+						"name": "Silver",
+						"priceModifier": 0
+					},
+					{
+						"id": 1001,
+						"name": "Space Gray",
+						"priceModifier": 0
+					},
+					{
+						"id": 1002,
+						"name": "Gold",
+						"priceModifier": 0
+					}
+				]
+			},
+			{
+				"id": 101,
+				"name": "Capacity",
+				"values": [{
+						"id": 1100,
+						"name": "64 GB",
+						"priceModifier": 0
+					},
+					{
+						"id": 1101,
+						"name": "256 GB",
+						"priceModifier": 40.00
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "iPhone 8 Plus",
+		"price": 129.99,
+		"oldPrice": 699.00,
+		"img": "Iphone8plus.png",
+		"options": [{
+				"id": 100,
+				"name": "Color",
+				"values": [{
+						"id": 1000,
+						"name": "Silver",
+						"priceModifier": 0
+					},
+					{
+						"id": 1001,
+						"name": "Space Gray",
+						"priceModifier": 0
+					},
+					{
+						"id": 1002,
+						"name": "Gold",
+						"priceModifier": 0
+					},
+					{
+						"id": 1003,
+						"name": "Red",
+						"priceModifier": 10.00
+					}
+				]
+			},
+			{
+				"id": 101,
+				"name": "Capacity",
+				"values": [{
+						"id": 1100,
+						"name": "64 GB",
+						"priceModifier": 0
+					},
+					{
+						"id": 1101,
+						"name": "256 GB",
+						"priceModifier": 40.00
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Samsung Galaxy S8",
+		"price": 900,
+		"oldPrice": 1000,
+		"img": "galaxys8.png",
+		"options": [{
+				"id": 100,
+				"name": "Color",
+				"values": [{
+						"id": 1000,
+						"name": "Black",
+						"priceModifier": 0
+					},
+					{
+						"id": 1001,
+						"name": "Aqua",
+						"priceModifier": 0
+					},
+					{
+						"id": 1002,
+						"name": "Gold",
+						"priceModifier": 0
+					},
+					{
+						"id": 1003,
+						"name": "Silver",
+						"priceModifier": 10.00
+					}
+				]
+			},
+			{
+				"id": 101,
+				"name": "Capacity",
+				"values": [{
+						"id": 1100,
+						"name": "64 GB",
+						"priceModifier": 0
+					},
+					{
+						"id": 1101,
+						"name": "256 GB",
+						"priceModifier": 80.00
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Iphone X",
+		"price": 699.99,
+		"oldPrice": 999.00,
+		"img": "Iphone10.png",
+		"options": [{
+				"id": 100,
+				"name": "Color",
+				"values": [{
+						"id": 1000,
+						"name": "Black",
+						"priceModifier": 0
+					},
+					{
+						"id": 1001,
+						"name": "Aqua",
+						"priceModifier": 0
+					},
+					{
+						"id": 1002,
+						"name": "Gold",
+						"priceModifier": 0
+					},
+					{
+						"id": 1003,
+						"name": "Silver",
+						"priceModifier": 10.00
+					}
+				]
+			},
+			{
+				"id": 101,
+				"name": "Capacity",
+				"values": [{
+						"id": 1100,
+						"name": "64 GB",
+						"priceModifier": 0
+					},
+					{
+						"id": 1101,
+						"name": "256 GB",
+						"priceModifier": 100.00
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Macbook Pro",
+		"price": 1300.99,
+		"oldPrice": 1999.99,
+		"img": "macbookpro.png",
+		"options": [{
+				"id": 100,
+				"name": "Color",
+				"values": [{
+						"id": 1000,
+						"name": "Black",
+						"priceModifier": 0
+					},
+					{
+						"id": 1001,
+						"name": "Silver",
+						"priceModifier": 10.00
+					}
+				]
+			},
+			{
+				"id": 101,
+				"name": "Capacity",
+				"values": [{
+						"id": 1100,
+						"name": "500 GB",
+						"priceModifier": 0
+					},
+					{
+						"id": 1101,
+						"name": "1 TB",
+						"priceModifier": 100.00
+					}
+				]
+			}
+		]
+	}
+]

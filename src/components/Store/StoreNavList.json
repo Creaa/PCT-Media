@@ -1,0 +1,22 @@
+[{
+		"name": "PCT",
+		"url": "/store",
+		"class": "nav-logo"
+	},
+	{
+		"name": "Home",
+		"url": "/"
+	},
+	{
+		"name": "My Orders",
+		"url": "/orders"
+	},
+	{
+		"name": "Terms",
+		"url": "/terms"
+	},
+	{
+		"name": "Contact Us",
+		"url": "/contact"
+	}
+]
