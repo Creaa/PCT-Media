@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "./static/media/Iphone10.0043b109.png"
   },
   {
-    "revision": "62b5569bc1840b170723",
-    "url": "./static/css/main.bd73ddf4.chunk.css"
+    "revision": "b4e92be7f7a8556f619a",
+    "url": "./static/css/main.d241065d.chunk.css"
   },
   {
     "revision": "9eb600ee07a27cdad64f",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "./static/media/background.4839a1dd.jpg"
   },
   {
-    "revision": "62b5569bc1840b170723",
-    "url": "./static/js/main.aa4eca5f.chunk.js"
+    "revision": "b4e92be7f7a8556f619a",
+    "url": "./static/js/main.ff1a1d05.chunk.js"
   },
   {
     "revision": "f9217955869136c26cf914e70cf5170c",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "./static/css/2.750c3304.chunk.css"
   },
   {
-    "revision": "7e1017180e1c667d54da02555ea78f43",
+    "revision": "2fe141c0fa96a0cb8b700d0c1993fbe6",
     "url": "./index.html"
   }
 ];
