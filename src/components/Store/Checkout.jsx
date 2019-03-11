@@ -15,7 +15,7 @@ class Checkout extends Component {
 			cityInput: '',
 			postCodeInput: '',
 			emailCorrect: false,
-			success: true,
+			success: false,
 
 		}
 	}
