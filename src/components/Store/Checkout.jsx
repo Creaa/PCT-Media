@@ -15,7 +15,7 @@ class Checkout extends Component {
 			cityInput: '',
 			postCodeInput: '',
 			emailCorrect: false,
-			succes: false,
+			success: true,
 
 		}
 	}
@@ -137,7 +137,7 @@ class Checkout extends Component {
 
 
 	render() {
-		if (this.state.succes) {
+		if (this.state.success) {
 			return <Redirect to="/success" />
 		}
 		else if (this.state.itemList.length === 0) {
