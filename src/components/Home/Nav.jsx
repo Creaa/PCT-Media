@@ -14,10 +14,10 @@ class Navbar extends Component {
 		}
 	}
 	mobileMenu = () => {
-		if (this.state.navSiteClasses.includes("site-nav-mobile")) {
+		if (this.state.navSiteClasses.includes("site-nav-mobile site-nav-background")) {
 			let temporaryNavList = this.state.navSiteClasses;
 			let temporaryElementsList = this.state.navElementsClasses;
-			let i = temporaryNavList.indexOf("site-nav-mobile")
+			let i = temporaryNavList.indexOf("site-nav-mobile site-nav-background")
 			let j = temporaryElementsList.indexOf("nav-list-mobile")
 			temporaryNavList.splice(i, 1)
 			temporaryElementsList.splice(j, 1)
@@ -29,7 +29,7 @@ class Navbar extends Component {
 		else {
 			let temporaryNavList = this.state.navSiteClasses;
 			let temporaryElementsList = this.state.navElementsClasses;
-			temporaryNavList.push("site-nav-mobile");
+			temporaryNavList.push("site-nav-mobile site-nav-background");
 			temporaryElementsList.push("nav-list-mobile")
 			this.setState({
 				navSiteClasses: temporaryNavList,
@@ -79,7 +79,7 @@ class Navbar extends Component {
 	render() {
 		return (
 			<div className="nav-wrapper">
-				<nav className={this.state.navSiteClasses.join(' ')}>
+				<nav style={{ color: this.props.storeNavList ? "black" : false }} className={this.state.navSiteClasses.join(' ')}>
 					<div className="nav-header">
 						<div className='hamburger'>
 							<input className="hamburger-checkbox"

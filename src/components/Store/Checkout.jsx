@@ -140,6 +140,11 @@ class Checkout extends Component {
 		if (this.state.succes) {
 			return <Redirect to="/succes" />
 		}
+		else if (this.state.itemList.length === 0) {
+			return <div className='card-wrapper'>
+				<p className='card-info'>The card is empty.</p>
+			</div>
+		}
 		return (
 			<div className="card-wrapper">
 				{this.state.itemList.map((el, k) => {

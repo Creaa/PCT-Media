@@ -35,6 +35,10 @@ class Store extends Component {
 		})
 	}
 
+	componentDidMount = () => {
+		window.scrollTo(0, 0)
+	}
+
 	optionChangeHandler = (e) => {
 		let temporaryArray = this.state.itemsToDisplay
 		let idOfOption = temporaryArray[0].options.filter((el) => el.id === parseInt(e.target.id));
@@ -85,6 +89,7 @@ class Store extends Component {
 				itemColor: temporaryArray[0].options[0].values[0].name,
 				itemCapacity: temporaryArray[0].options[1].values[0].name
 			})
+			window.scrollTo(0, 0)
 		}
 		else {
 			let itemToBuy = this.state.itemsToDisplay;

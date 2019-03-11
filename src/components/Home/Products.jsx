@@ -67,7 +67,7 @@ class Products extends Component {
 								</div> : false}
 								{this.props.itemClick ? <span className="purchase-buttons">
 									<NavLink onClick={this.props.itemClick} id={el.id} to="/store" className="store-button purchase">{this.props.buttonText}</NavLink>
-									{this.props.itemsToDisplay.length === 1 ? <NavLink onClick={this.props.cancelButton} to="/store" className="store-button cancel">Cancel</NavLink> : false}
+									{this.props.itemsToDisplay.length === 1 ? <NavLink onClick={this.props.cancelButton} to="/store#" className="store-button cancel">Cancel</NavLink> : false}
 								</span> : <NavLink to="/store" className="store-button purchase">Buy now!</NavLink>}
 							</li>
 						)

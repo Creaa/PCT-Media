@@ -15,6 +15,10 @@ class Home extends Component {
 		AOS.init();
 	}
 
+	componentDidMount = () => {
+		window.scrollTo(0, 0)
+	}
+
 
 
 	render() {

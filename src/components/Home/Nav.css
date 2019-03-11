@@ -4,7 +4,7 @@
 	width: 95%;
 	left: 2.5%;
 	z-index: 1;
-	padding: 15px;
+	padding: 20px;
 	margin: 10px 0;
 	transition: 1s;
 	color: #fff;
@@ -157,7 +157,7 @@
 	}
 
 	.nav-list {
-		visibility: hidden;
+		display: none;
 	}
 
 	.nav-list-mobile {
@@ -170,16 +170,15 @@
 		font-family: 'Black Ops One', sans-serif;
 		font-size: 1.4rem;
 		letter-spacing: 1rem;
-		margin-right: 30px;
-		flex: 1;
+		flex: 1 0;
 		text-align: center;
 		visibility: visible;
 	}
 
 	.nav-header {
 		display: flex;
-		justify-content: flex-start;
-		align-items: flex-end;
+		justify-content: space-around;
+		align-items: center;
 	}
 
 	.nav-logo {
