@@ -138,7 +138,7 @@ class Checkout extends Component {
 
 	render() {
 		if (this.state.succes) {
-			return <Redirect to="/succes" />
+			return <Redirect to="/success" />
 		}
 		else if (this.state.itemList.length === 0) {
 			return <div className='card-wrapper'>

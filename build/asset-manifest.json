@@ -1,0 +1,21 @@
+{
+  "main.css": "./static/css/main.bd73ddf4.chunk.css",
+  "main.js": "./static/js/main.aa4eca5f.chunk.js",
+  "main.js.map": "./static/js/main.aa4eca5f.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.2c977d9b.js",
+  "runtime~main.js.map": "./static/js/runtime~main.2c977d9b.js.map",
+  "static/css/2.750c3304.chunk.css": "./static/css/2.750c3304.chunk.css",
+  "static/js/2.bd6b9422.chunk.js": "./static/js/2.bd6b9422.chunk.js",
+  "static/js/2.bd6b9422.chunk.js.map": "./static/js/2.bd6b9422.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.412f7465f511ad56c94e566da6907e2a.js": "./precache-manifest.412f7465f511ad56c94e566da6907e2a.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/2.750c3304.chunk.css.map": "./static/css/2.750c3304.chunk.css.map",
+  "static/css/main.bd73ddf4.chunk.css.map": "./static/css/main.bd73ddf4.chunk.css.map",
+  "static/media/Iphone10.png": "./static/media/Iphone10.0043b109.png",
+  "static/media/Iphone8.png": "./static/media/Iphone8.f9217955.png",
+  "static/media/Iphone8plus.png": "./static/media/Iphone8plus.951013d2.png",
+  "static/media/background.jpg": "./static/media/background.4839a1dd.jpg",
+  "static/media/galaxys8.png": "./static/media/galaxys8.20411b32.png",
+  "static/media/macbookpro.png": "./static/media/macbookpro.9e93371e.png"
+}

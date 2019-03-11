@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../../node_modules/aos/dist/aos.css';
 import AOS from 'aos';
 import { Redirect } from 'react-router-dom'
-import './Succes.css';
+import './Success.css';
 class Succes extends Component {
 	constructor(props) {
 		super(props);
@@ -25,7 +25,7 @@ class Succes extends Component {
 			return <Redirect to="/" />
 		}
 		return (
-			<div className='succes-wrapper'
+			<div className='success-wrapper'
 				data-aos="fade-in"
 				data-aos-offset="100"
 				data-aos-delay="200"
@@ -33,12 +33,12 @@ class Succes extends Component {
 				data-aos-easing="ease-in-out"
 				data-aos-once="false"
 			>
-				<img src="https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png" className="succes-icon" alt="thumbs up" />
-				<p className='succes'>
+				<img src="https://openclipart.org/image/2400px/svg_to_png/214028/Thumbs-Up-Circle.png" className="success-icon" alt="thumbs up" />
+				<p className='success'>
 					Your payment has been successfully processed.
 			</p>
-				<p className="succes">We would like to thank you for choosing our company!</p>
-				<p className='succes'>You will be transfer to the main page</p>
+				<p className="success">We would like to thank you for choosing our company!</p>
+				<p className='success'>You will be transfer to the main page</p>
 			</div>);
 	}
 }

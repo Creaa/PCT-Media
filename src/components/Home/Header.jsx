@@ -33,9 +33,10 @@ class Header extends Component {
 					data-aos-easing="ease-in-out"
 					data-aos-once="true"
 				>Phones Computers Technologies</h2>
-				<NavLink to='/store#'
+				<NavLink to='/store'
 					className='store-button'
 					data-aos="fade-in"
+					data-aos-offset="0"
 					data-aos-delay="3000"
 					data-aos-duration="1000"
 					data-aos-easing="ease-in-out"

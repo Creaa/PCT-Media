@@ -144,7 +144,11 @@
 	right: -5px;
 }
 
-
+.logo {
+	font-family: 'Black Ops One', sans-serif;
+	font-size: 1.4rem;
+	letter-spacing: 1rem;
+}
 
 
 
@@ -167,9 +171,6 @@
 
 
 	.logo {
-		font-family: 'Black Ops One', sans-serif;
-		font-size: 1.4rem;
-		letter-spacing: 1rem;
 		flex: 1 0;
 		text-align: center;
 		visibility: visible;
